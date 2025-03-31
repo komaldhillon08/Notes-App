@@ -1,8 +1,63 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body{
-    background-color: red;
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #32ffd6, #95c0ff);
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.container button {
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(#98ff98, #8cf1e3);
+}
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+   
+
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+}
+
+.container h1 img {
+    width: 100px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    max-width: 500px;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 10px 0px ;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.notes-container p img{
+    width: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
 }
